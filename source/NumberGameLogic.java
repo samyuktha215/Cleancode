@@ -1,4 +1,4 @@
-public class NumberGameLogic implements Game {
+public class NumberGameLogic implements GameLogic {
     public  String makeGoal(){
         String goal = "";
         for (int i = 0; i < 4; i++){

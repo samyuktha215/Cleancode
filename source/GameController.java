@@ -1,11 +1,11 @@
 import java.util.List;
 
-public class GameController implements IGameController {
+public class GameController implements Game {
     private IText user;
-    private IDatabase db;
-    private Game game;
+    private Database db;
+    private GameLogic game;
 
-    public GameController(IText user, IDatabase db, Game game) {
+    public GameController(IText user, Database db, GameLogic game) {
         this.user = user;
         this.db = db;
         this.game = game;

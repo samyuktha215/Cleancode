@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class SimpleWindowUI implements IText {
     private SimpleWindow gw;

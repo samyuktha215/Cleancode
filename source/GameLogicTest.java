@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class GameTest {
+public class GameLogicTest {
 
     @Test
     public void testGenerateFeedback() {

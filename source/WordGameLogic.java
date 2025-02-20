@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class WordGameLogic implements Game{
+public class WordGameLogic implements GameLogic {
     @Override
     public String makeGoal() {
         Random rand = new Random();
