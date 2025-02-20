@@ -11,7 +11,7 @@ public class DatabaseImpl implements Database {
 
     public DatabaseImpl()  {
         try {
-            connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/MOO","root","vedansh143@P");
+            connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/Meow","root","12345");
             statement=connection.createStatement();
         } catch (SQLException e) {
             throw new RuntimeException(e);
